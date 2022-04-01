@@ -5,12 +5,12 @@ html, body {
 body {
   font-family: Roboto, sans-serif;
   background: radial-gradient(at top, #FEFFFF, #A7CECC);
-  text-align:center;
 }
 
 .container {
   padding: 0 40px;
-  margin-left: 80px;
+  width:100%;
+  text-align: center;
 }
 
   /* Свойства ссылок */
@@ -31,7 +31,8 @@ a::after {
   content: '';
   position: absolute;
   align-self: center;
-  left: 45%;
+  margin:auto;
+  left: 0;
   right: 0;
   transform: translateY(1.5em);
   border-bottom: 2px solid #b8b7b7;
@@ -74,7 +75,7 @@ h2 {
   font-family: Inter,-apple-system,system-ui,Roboto,"Helvetica Neue",Arial,sans-serif;
   height: 40px;
   width: 200px;
-  left: 15px;
+  left: 0px;
   line-height: 40px;
   outline: 0;
   overflow: hidden;
