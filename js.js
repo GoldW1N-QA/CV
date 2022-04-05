@@ -1,6 +1,6 @@
 function randomGen () {
  let randomNum = (Math.floor(Math.random() * 25))
- alert("Ваше число: " + randomNum)
+ alert("🧡 Ваше случайное число это: " + randomNum)
 }
 
 
